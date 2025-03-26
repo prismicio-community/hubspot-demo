@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, useEffect, useState } from "react";
-import { Content } from "@prismicio/client";
+import { asText, Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 import Skeleton from "@/components/Skeleton";
 import { useHubspotForm } from "next-hubspot";
@@ -20,6 +20,7 @@ const HubspotForm: FC<HubspotFormProps> = ({ slice }) => {
     portalId: process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID || "",
     formId: slice.primary.form_id || "",
     target: "#hubspot-form-wrapper",
+    inlineMessage: asText(slice.primary.form_confirmation_text),
   });
 
   useEffect(() => {
