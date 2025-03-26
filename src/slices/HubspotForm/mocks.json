@@ -1,0 +1,35 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"form_id": {
+				"__TYPE__": "FieldContent",
+				"value": "ourselves",
+				"type": "Text"
+			},
+			"loader_type": {
+				"__TYPE__": "FieldContent",
+				"value": "2",
+				"type": "Select"
+			},
+			"form_name": {
+				"__TYPE__": "FieldContent",
+				"value": "ought",
+				"type": "Text"
+			},
+			"form_confirmation_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Labore officia minim do sit irure exercitation nulla. Eiusmod laboris ut fugiat labore. Sunt voluptate reprehenderit nisi excepteur ea cillum pariatur ut reprehenderit Lorem occaecat aute amet."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
